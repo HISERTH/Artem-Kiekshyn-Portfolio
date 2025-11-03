@@ -1085,8 +1085,8 @@ input, select, textarea {
 	}
 	@media screen and (max-width: 480px) {
 		.videoempathy {
-			width: 340px;
-			height: 190px;
+			width: 297.5px;
+			height: 166.25px;
 			margin: 0 auto;
 			display: block;
 		}
