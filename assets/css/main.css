@@ -305,6 +305,16 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 480px) {
+		h3 {
+			font-size: 1rem;
+		}
+
+		h4 {
+		font-size: 0.9rem;
+		}
+	}
+
 	sub {
 		font-size: 0.8rem;
 		position: relative;
@@ -1085,8 +1095,8 @@ input, select, textarea {
 	}
 	@media screen and (max-width: 480px) {
 		.videoempathy {
-			width: 297.5px;
-			height: 166.25px;
+			width: 277px;
+			height: 155px;
 			margin: 0 auto;
 			display: block;
 		}
@@ -1302,7 +1312,7 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
 		outline: 0;
-		padding: 0 1rem 0 0.8rem;
+		padding: 0 0.8rem 0 0.8rem;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -1352,6 +1362,19 @@ input, select, textarea {
 			font-weight: 600;
 		}
 
+		@media screen and (max-width: 480px) {
+			input[type="submit"].small,
+		input[type="reset"].small,
+		input[type="button"].small,
+		button.small,
+		.button.small {
+			font-size: 0.9rem;
+			height: 2.3rem;
+			line-height: 2.3rem;
+			font-weight: 600;
+	    }
+	    }
+
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
@@ -1362,6 +1385,20 @@ input, select, textarea {
 			font-weight: 600;
 			display: block;
 			margin: 1.5rem 7rem 1.5rem 7rem;
+		}
+
+		@media screen and (max-width: 736px) {
+		input[type="submit"].primary,
+		input[type="reset"].primary,
+		input[type="button"].primary,
+		button.primary,
+		.button.primary {
+			background-color: #ffffff;
+			color: #1b1f22 !important;
+			font-weight: 600;
+			display: block;
+			margin: 1.5rem 5rem 1.5rem 5rem;
+		}
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
